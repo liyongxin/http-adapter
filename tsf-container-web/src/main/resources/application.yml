@@ -1,0 +1,30 @@
+server:
+  port:
+  servlet:
+    context-path:
+
+spring:
+  application:
+    name: tsf-container-web
+## swagger setting
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs
+swagger:
+  enabled: true
+  title: Web RESTFul API
+  description: Container Platform Web API
+  version: 2.9.2
+  base-package: com.tencent.tsf.container
+  base-path: /**
+
+## alauda setting
+container:
+  platform:
+    alauda:
+      endpoint:
+logging:
+  level:
+    root: debug

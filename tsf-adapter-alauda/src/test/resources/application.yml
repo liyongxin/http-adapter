@@ -1,0 +1,24 @@
+## rancher setting
+container:
+  platform:
+    rancher:
+      #Rancher API请求地址
+      #      endpoint: https://172.16.84.149/v3
+#      endpoint: https://43.254.44.13/v3
+      endpoint: https://129.28.195.244
+      #username
+      #local
+      #      access-key: token-b57rs
+      access-key: token-pljwf
+      #password
+      #      access-token: rmpm7hrpgw8twcpm74v6gz9zcvkznpfwvrgz5q4m2ksm76g594wt82
+      access-token: rk4s4h4mq28dvcdcjt5k788wwb25xwtvvzwk8vwktzl567h99n5wf9
+#Authorization:  Basic dG9rZW4tYjU3cnM6cm1wbTdocnBndzh0d2NwbTc0djZnejl6Y3Zrem5wZnd2cmd6NXE0bTJrc203Nmc1OTR3dDgy
+#Authorization:  Basic dG9rZW4tcGxqd2Y6cms0czRoNG1xMjhkdmNkY2p0NWs3ODh3d2IyNXh3dHZ2endrOHZ3a3R6bDU2N2g5OW41d2Y5
+    alauda:
+      endpoint: https://129.28.195.244
+      access-key: token-pljwf
+      access-token: eyJhbGciOiJSUzI1NiIsImtpZCI6ImVlY2I2ZmM5YjkyOTU1YzQyODEzMmQ2ZWYwNTA3YWJhMDY2NjBkNzIifQ.eyJpc3MiOiJodHRwczovLzEwLjAuMTI4Ljc2L2RleCIsInN1YiI6IkNpUXdPR0U0TmpnMFlpMWtZamc0TFRSaU56TXRPVEJoT1MwelkyUXhOall4WmpVME5qWVNCV3h2WTJGcyIsImF1ZCI6ImFsYXVkYS1hdXRoIiwiZXhwIjoxNTYyNzI1OTM0LCJpYXQiOjE1NjI2Mzk1MzQsIm5vbmNlIjoiYWxhdWRhLWNvbnNvbGUiLCJhdF9oYXNoIjoia3BibkM1Y013MFZoTUYtdXJRU2FrUSIsImVtYWlsIjoiYWRtaW5AYWxhdWRhLmlvIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJhZG1pbiIsImV4dCI6eyJpc19hZG1pbiI6dHJ1ZSwiY29ubl9pZCI6ImxvY2FsIn19.087PFx0mPK-bwQKFPyL7Y2DbKHHotIXfFGCWbAMBrMWP5ocMSOjBd2WOupyqzaUDAyhuXSobdQzF9ldNWyWu2Ewj_XT-nnaWjAI1Wi5DvUF8ZVBPqu-xGQc6BN09m3WOLGDot28QLsZBEizmWcoD2MZjvWq3IIvQ1xbEoLpQnTlmZzUiFNyNzqzDM_Kr26Gqy6VIroVlF_Z6b3zMWm2AEY7PHr5Q70HPlCcsqA04yKOpfGRET1vv09qlcEW66BLefYDV-5JKo_kXkw31lRIrZnb_Xzix_MI97LDhE-6wDjb6qlQlmJ3eVUWv_38MHVPFlTumPaA4n_x0sUDTmJxUmA
+logging:
+  level:
+    root: INFO
