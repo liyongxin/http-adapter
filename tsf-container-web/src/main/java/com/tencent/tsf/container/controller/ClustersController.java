@@ -176,7 +176,7 @@ public class ClustersController extends BaseController {
 					"<li>URI参数: clusterId——集群ID，必填</li>" +
 					"<li>请求体参数: {\"instances\": [\n" +
 					"{\"ip\": \"172.16.1.20\",\"port\": 22," +
-					"\"username\": \"root\",\"password\": \"pa55w0rd\"\n" +
+					"\"username\": \"root\",\"password\": \"xxxxxx\"\n" +
 					"}]}, 必填</li>" +
 					"</ul>" +
 					"返回参数描述<p></p>", response = BaseResponse.class)
@@ -197,7 +197,7 @@ public class ClustersController extends BaseController {
 					"<li>URI参数: clusterId——集群ID，必填</li>" +
 					"<li>请求体参数: \"instances\": [\n" +
 					"{\"ip\": \"172.16.1.20\",\"port\": 22," +
-					"\"username\": \"root\",\"password\": \"pa55w0rd\"\n" +
+					"\"username\": \"root\",\"password\": \"xxxxxx\"\n" +
 					"}], 必填</li>" +
 					"</ul>" +
 					"返回参数描述<p></p>", response = BaseResponse.class)
